@@ -14,8 +14,14 @@ header{
     border-radius: 5px;
 }
 section{
-    margin-bottom: 80px;
-    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+@media screen and (max-width:700px){
+    section{
+        margin-bottom: 80px;
+        margin-top: 40px;
+    }
 }
 footer{
     margin-top: 100px; 
